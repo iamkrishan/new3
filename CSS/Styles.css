@@ -1,0 +1,152 @@
+/**************************************************************TAG SELECTORS*************************************************************/
+
+body 
+    {margin: 0;
+    color: rgb(210, 218, 216);
+    text-align: center;
+    font-family: 'Slabo 27px', serif;
+    background-color: rgb(242, 245, 247)}
+
+p
+    {color: #478080;
+    line-height: 2;}
+
+hr
+    {border: dotted rgb(57, 80, 80) 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;}
+
+h1 
+    {font-size: 4rem;
+    color: #478080;
+    margin: 50px auto 0 auto;
+    font-family: sacramento,'Marck Script', cursive;}
+
+h2
+    {font-size: 2rem;
+    color: #478080;
+    font-size: normal;
+    padding-top: 5px;
+    margin: auto;
+    font-family: 'Marck Script', cursive;}
+
+h3
+    {color: #478080;}
+
+a
+    {color: brown;
+    font-family: cursive;
+    margin: 10px 20px;
+    text-decoration: none;}
+
+a:hover
+    {color: #eaf6f6;}
+
+/**********************************************************Class SELECTORS*****************************************************************/
+
+/************************************Top-Section*****************************/
+
+.Top-Section
+{position: relative;
+padding-top: 100px;}
+
+/*.underline
+{text-decoration: underline;}*/
+
+.Top-cloud
+{position: absolute;
+right: 200px;
+top: 50px}
+
+.bottom-cloud
+{position: absolute;
+left: 200px;
+bottom: 250px;}
+
+/************************************Middle-Section*****************************/
+
+.Middle-Section
+    {margin: 75px 0;}
+
+
+.profile-img
+    {height: 300px;
+    width: 350px;
+    border-radius: 100%;}
+
+.profile-para
+    {width: 40%;
+     margin: 20px auto 30px;}
+
+.travel-img 
+    {height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;}
+
+.photo-img 
+    {height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    float: right;
+    margin-right: 30px;}
+
+.gym-img 
+    {height: 250px;
+    width: 250px;
+    border-radius: 100%;
+    float: left;
+    margin-right: 30px;}
+
+
+
+.life-row
+    {width: 50%;
+    margin: 50px auto 200px auto;
+    text-align: left;}
+
+.contact-message
+    {width: 40%;
+    margin: 20px auto 20px;}
+
+/*    
+.btn
+    {box-shadow:inset 0px 1px 3px 0px #91b8b3;
+    background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color:#768d87;
+    border-radius:5px;
+    border:1px solid #566963;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    padding:5px 10px;
+    text-decoration:none;
+    text-shadow:0px -1px 0px #2b665e;
+    }
+
+.btn:hover 
+    {background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color:#6c7c7c;}
+    
+.btn:active 
+    {position:relative;
+    top:1px;}
+/
+
+/************************************bottom-Section*****************************/
+
+.bottom-section 
+    {background-color: rgb(219, 222, 224);
+    padding: 20px 0 5px;}
+
+.copywrite
+    {color: white;
+    font-size: 0.75rem;
+    padding: 5px 0;}
+
+
